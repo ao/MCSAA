@@ -1,0 +1,4354 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MCSAA
+</name>
+</assembly>
+<members>
+<member name="T:MCSAA.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:MCSAA.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:MCSAA.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:MCSAA.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:MCSAA.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:MCSAA.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:MCSAA.AccessControlMatrix._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AccessControlMatrix._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AccessControlMatrix._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AccessControlMatrix._ddAcademicYear">
+<summary>
+ddAcademicYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AccessControlMatrix._cbAB1">
+<summary>
+cbAB1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AccessControlMatrix._cbAC1">
+<summary>
+cbAC1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AccessControlMatrix._cbAO11">
+<summary>
+cbAO11 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AccessControlMatrix._cbAO21">
+<summary>
+cbAO21 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AccessControlMatrix._cbAB2">
+<summary>
+cbAB2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AccessControlMatrix._cbAC2">
+<summary>
+cbAC2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AccessControlMatrix._cbAO12">
+<summary>
+cbAO12 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AccessControlMatrix._cbAO22">
+<summary>
+cbAO22 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AccessControlMatrix._cbAB3">
+<summary>
+cbAB3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AccessControlMatrix._cbAC3">
+<summary>
+cbAC3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AccessControlMatrix._cbAO13">
+<summary>
+cbAO13 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AccessControlMatrix._cbAO23">
+<summary>
+cbAO23 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AccessControlMatrix._cbAB4">
+<summary>
+cbAB4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AccessControlMatrix._cbAC4">
+<summary>
+cbAC4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AccessControlMatrix._cbAO14">
+<summary>
+cbAO14 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AccessControlMatrix._cbAO24">
+<summary>
+cbAO24 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AccessControlMatrix._rbNotifyChangestoUsers">
+<summary>
+rbNotifyChangestoUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AccessControlMatrix._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AccessControlMatrix._btOK">
+<summary>
+btOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AccessControlMatrix._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AddNewSubjects._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AddNewSubjects._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AddNewSubjects._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AddNewSubjects._ddStream">
+<summary>
+ddStream control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AddNewSubjects._lblMsg02">
+<summary>
+lblMsg02 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AddNewSubjects._ddAcademicYear">
+<summary>
+ddAcademicYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AddNewSubjects._lblMsg6">
+<summary>
+lblMsg6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AddNewSubjects._ddAcademicYear0">
+<summary>
+ddAcademicYear0 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AddNewSubjects._lblMsg7">
+<summary>
+lblMsg7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AddNewSubjects._txtCode">
+<summary>
+txtCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AddNewSubjects._lblMsg8">
+<summary>
+lblMsg8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AddNewSubjects._txtSubject">
+<summary>
+txtSubject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AddNewSubjects._lblMsg9">
+<summary>
+lblMsg9 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AddNewSubjects._ddCredit">
+<summary>
+ddCredit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AddNewSubjects._lblMsg10">
+<summary>
+lblMsg10 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AddNewSubjects._txtCordinator">
+<summary>
+txtCordinator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AddNewSubjects._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AddNewSubjects._btSave">
+<summary>
+btSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AddNewSubjects._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AdjustCredits._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AdjustCredits._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AdjustCredits._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AdjustCredits._ddStream">
+<summary>
+ddStream control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AdjustCredits._lblMsg02">
+<summary>
+lblMsg02 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AdjustCredits._ddAcademicYear">
+<summary>
+ddAcademicYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AdjustCredits._lblMsg6">
+<summary>
+lblMsg6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AdjustCredits._ddAcademicYear0">
+<summary>
+ddAcademicYear0 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AdjustCredits._pRelevantSubjects">
+<summary>
+pRelevantSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AdjustCredits._gvSubjects">
+<summary>
+gvSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AdjustCredits._SDSSubject">
+<summary>
+SDSSubject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AdjustCredits._btNew">
+<summary>
+btNew control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AdjustCredits._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AdjustCredits._btOK">
+<summary>
+btOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.AdjustCredits._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ChangePassword._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ChangePassword._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ChangePassword._lblUser">
+<summary>
+lblUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ChangePassword._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ChangePassword._txtCurrentPassword">
+<summary>
+txtCurrentPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ChangePassword._lblMsg02">
+<summary>
+lblMsg02 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ChangePassword._txtNewPassword">
+<summary>
+txtNewPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ChangePassword._lblMsg03">
+<summary>
+lblMsg03 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ChangePassword._txtRetypePassword">
+<summary>
+txtRetypePassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ChangePassword._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ChangePassword._btOK">
+<summary>
+btOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ChangePassword._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ConfirmAction._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ConfirmAction._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ConfirmAction._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ConfirmAction._lblMsg02">
+<summary>
+lblMsg02 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ConfirmAction._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ConfirmAction._btOK">
+<summary>
+btOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ConfirmAction._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ConnectionError._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ConnectionError._lblConnectionError">
+<summary>
+lblConnectionError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ConnectionError._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ConnectionError._lblMsg02">
+<summary>
+lblMsg02 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ConnectionError._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ConnectionError._btRetry">
+<summary>
+btRetry control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ConnectionError._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CreateNewSubjectList._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CreateNewSubjectList._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CreateNewSubjectList._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CreateNewSubjectList._ddStream">
+<summary>
+ddStream control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CreateNewSubjectList._lblMsg02">
+<summary>
+lblMsg02 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CreateNewSubjectList._ddAcademicYear">
+<summary>
+ddAcademicYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CreateNewSubjectList._lblMsg6">
+<summary>
+lblMsg6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CreateNewSubjectList._ddAcademicYear0">
+<summary>
+ddAcademicYear0 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CreateNewSubjectList._pRelevantSubjects">
+<summary>
+pRelevantSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CreateNewSubjectList._gvSubjects">
+<summary>
+gvSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CreateNewSubjectList._SDSSubject">
+<summary>
+SDSSubject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CreateNewSubjectList._btAdd">
+<summary>
+btAdd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CreateNewSubjectList._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CreateNewSubjectList._btOK">
+<summary>
+btOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CreateNewSubjectList._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CustomPrivilageLevel._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CustomPrivilageLevel._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CustomPrivilageLevel._pLevel">
+<summary>
+pLevel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CustomPrivilageLevel._lblNewUserAdministrator">
+<summary>
+lblNewUserAdministrator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CustomPrivilageLevel._cbAddUsers">
+<summary>
+cbAddUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CustomPrivilageLevel._cbDefineItem">
+<summary>
+cbDefineItem control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CustomPrivilageLevel._cbRemoveUsers">
+<summary>
+cbRemoveUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CustomPrivilageLevel._cbViewStudentChoices">
+<summary>
+cbViewStudentChoices control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CustomPrivilageLevel._cbViewAccounts">
+<summary>
+cbViewAccounts control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CustomPrivilageLevel._cbSubjectOperation">
+<summary>
+cbSubjectOperation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CustomPrivilageLevel._cbNotices">
+<summary>
+cbNotices control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CustomPrivilageLevel._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CustomPrivilageLevel._btOK">
+<summary>
+btOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.CustomPrivilageLevel._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.DeleteSubject._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.DeleteSubject._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.DeleteSubject._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.DeleteSubject._ddStream">
+<summary>
+ddStream control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.DeleteSubject._lblMsg02">
+<summary>
+lblMsg02 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.DeleteSubject._ddAcademicYear">
+<summary>
+ddAcademicYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.DeleteSubject._lblMsg6">
+<summary>
+lblMsg6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.DeleteSubject._ddAcademicYear0">
+<summary>
+ddAcademicYear0 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.DeleteSubject._pRelevantSubjects">
+<summary>
+pRelevantSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.DeleteSubject._gvSubjects">
+<summary>
+gvSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.DeleteSubject._SDSSubject">
+<summary>
+SDSSubject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.DeleteSubject._rbkeep">
+<summary>
+rbkeep control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.DeleteSubject._rbremove">
+<summary>
+rbremove control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.DeleteSubject._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.DeleteSubject._btSave">
+<summary>
+btSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.DeleteSubject._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="T:MCSAA.dsSubject">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCSAA.dsSubject.dtSubjectDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCSAA.dsSubject.dtSubjectRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCSAA.dsSubject.dtSubjectRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="F:MCSAA.EditAdminProfile._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditAdminProfile._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditAdminProfile._Image1">
+<summary>
+Image1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditAdminProfile._btChangeImage">
+<summary>
+btChangeImage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditAdminProfile._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditAdminProfile._txtUserName">
+<summary>
+txtUserName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditAdminProfile._lblMsg02">
+<summary>
+lblMsg02 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditAdminProfile._txtPassword">
+<summary>
+txtPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditAdminProfile._lblMsg6">
+<summary>
+lblMsg6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditAdminProfile._btViewPrivilege">
+<summary>
+btViewPrivilege control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditAdminProfile._lblMsg03">
+<summary>
+lblMsg03 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditAdminProfile._txtCurrentPassword">
+<summary>
+txtCurrentPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditAdminProfile._lblMsg04">
+<summary>
+lblMsg04 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditAdminProfile._txtEmailaddress">
+<summary>
+txtEmailaddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditAdminProfile._btChangePassword">
+<summary>
+btChangePassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditAdminProfile._lblMsg7">
+<summary>
+lblMsg7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditAdminProfile._btView">
+<summary>
+btView control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditAdminProfile._pImportantDate">
+<summary>
+pImportantDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditAdminProfile._Calendar1">
+<summary>
+Calendar1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditAdminProfile._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditAdminProfile._btSave">
+<summary>
+btSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditAdminProfile._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditSubjectDetails._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditSubjectDetails._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditSubjectDetails._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditSubjectDetails._ddStream">
+<summary>
+ddStream control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditSubjectDetails._lblMsg02">
+<summary>
+lblMsg02 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditSubjectDetails._ddAcademicYear">
+<summary>
+ddAcademicYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditSubjectDetails._lblMsg6">
+<summary>
+lblMsg6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditSubjectDetails._ddAcademicYear0">
+<summary>
+ddAcademicYear0 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditSubjectDetails._pRelevantSubjects">
+<summary>
+pRelevantSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditSubjectDetails._gvSubjects">
+<summary>
+gvSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditSubjectDetails._SDSSubject">
+<summary>
+SDSSubject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditSubjectDetails._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditSubjectDetails._btSave">
+<summary>
+btSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.EditSubjectDetails._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.GuestView._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.GuestView._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.GuestView._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.GuestView._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.GuestView._txtUserName">
+<summary>
+txtUserName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.GuestView._lblMsg02">
+<summary>
+lblMsg02 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.GuestView._txtPassword">
+<summary>
+txtPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.GuestView._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.GuestView._btOK">
+<summary>
+btOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.GuestView._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.IncompleteResponse._form2">
+<summary>
+form2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.IncompleteResponse._lblConnectionError">
+<summary>
+lblConnectionError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.IncompleteResponse._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.IncompleteResponse._lblMsg02">
+<summary>
+lblMsg02 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.IncompleteResponse._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.IncompleteResponse._btRetry">
+<summary>
+btRetry control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.IncompleteResponse._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.InputError._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.InputError._lblConnectionError">
+<summary>
+lblConnectionError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.InputError._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.InputError._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.InputError._btOK">
+<summary>
+btOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.InputError._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.LogIn._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.LogIn._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.LogIn._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.LogIn._txtUserName">
+<summary>
+txtUserName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.LogIn._lblMsg02">
+<summary>
+lblMsg02 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.LogIn._txtPassword">
+<summary>
+txtPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.LogIn._rblOption">
+<summary>
+rblOption control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.LogIn._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.LogIn._btOK">
+<summary>
+btOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.LogIn._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.LonginSelection._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.LonginSelection._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.LonginSelection._rblUserType">
+<summary>
+rblUserType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.LonginSelection._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.LonginSelection._btOK">
+<summary>
+btOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.LonginSelection._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ManageUsers._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ManageUsers._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ManageUsers._pLevel">
+<summary>
+pLevel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ManageUsers._Panel1">
+<summary>
+Panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ManageUsers._lblName">
+<summary>
+lblName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ManageUsers._lblAdjust">
+<summary>
+lblAdjust control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ManageUsers._lblSuspendAccount">
+<summary>
+lblSuspendAccount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ManageUsers._ListBox1">
+<summary>
+ListBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ManageUsers._btPrivileges">
+<summary>
+btPrivileges control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ManageUsers._CheckBox1">
+<summary>
+CheckBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ManageUsers._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ManageUsers._btOK">
+<summary>
+btOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ManageUsers._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.NewUser._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.NewUser._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.NewUser._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.NewUser._txtUserName">
+<summary>
+txtUserName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.NewUser._lblMsg02">
+<summary>
+lblMsg02 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.NewUser._txtPassword">
+<summary>
+txtPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.NewUser._lblMsg03">
+<summary>
+lblMsg03 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.NewUser._txtRetypePassword">
+<summary>
+txtRetypePassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.NewUser._lblMsg04">
+<summary>
+lblMsg04 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.NewUser._txtEmailaddress">
+<summary>
+txtEmailaddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.NewUser._lblMsg05">
+<summary>
+lblMsg05 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.NewUser._ddAccountType">
+<summary>
+ddAccountType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.NewUser._pLevel">
+<summary>
+pLevel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.NewUser._rblOptions">
+<summary>
+rblOptions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.NewUser._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.NewUser._btOK">
+<summary>
+btOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.NewUser._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PrivilegesMatrix._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PrivilegesMatrix._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PrivilegesMatrix._pLevel">
+<summary>
+pLevel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PrivilegesMatrix._lblNewUserAdministrator">
+<summary>
+lblNewUserAdministrator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PrivilegesMatrix._cbAccesstoUsers">
+<summary>
+cbAccesstoUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PrivilegesMatrix._cbChangeSubjects">
+<summary>
+cbChangeSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PrivilegesMatrix._cbManageTimetables">
+<summary>
+cbManageTimetables control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PrivilegesMatrix._cbDeleteSubjects">
+<summary>
+cbDeleteSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PrivilegesMatrix._cbChangeGrades">
+<summary>
+cbChangeGrades control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PrivilegesMatrix._cbAccessResources">
+<summary>
+cbAccessResources control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PrivilegesMatrix._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PrivilegesMatrix._btOK">
+<summary>
+btOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PrivilegesMatrix._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PublishTimetables._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PublishTimetables._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PublishTimetables._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PublishTimetables._ddStream">
+<summary>
+ddStream control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PublishTimetables._lblMsg02">
+<summary>
+lblMsg02 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PublishTimetables._ddAcademicYear">
+<summary>
+ddAcademicYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PublishTimetables._lblMsg6">
+<summary>
+lblMsg6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PublishTimetables._ddAcademicYear0">
+<summary>
+ddAcademicYear0 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PublishTimetables._pRelevantSubjects">
+<summary>
+pRelevantSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PublishTimetables._gvSubjects">
+<summary>
+gvSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PublishTimetables._SDSSubject">
+<summary>
+SDSSubject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PublishTimetables._btEditTimetable">
+<summary>
+btEditTimetable control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PublishTimetables._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PublishTimetables._btSave">
+<summary>
+btSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.PublishTimetables._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjects._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjects._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjects._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjects._ddStream">
+<summary>
+ddStream control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjects._lblMsg02">
+<summary>
+lblMsg02 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjects._ddAcademicYear">
+<summary>
+ddAcademicYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjects._lblMsg6">
+<summary>
+lblMsg6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjects._ddAcademicYear0">
+<summary>
+ddAcademicYear0 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjects._pRelevantSubjects">
+<summary>
+pRelevantSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjects._gvSubjects">
+<summary>
+gvSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjects._SDSSubject">
+<summary>
+SDSSubject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjects._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjects._btSave">
+<summary>
+btSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjects._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjectsfromList._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjectsfromList._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjectsfromList._Image1">
+<summary>
+Image1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjectsfromList._lblMsg08">
+<summary>
+lblMsg08 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjectsfromList._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjectsfromList._lblRegNo">
+<summary>
+lblRegNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjectsfromList._lblMsg02">
+<summary>
+lblMsg02 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjectsfromList._lblStream">
+<summary>
+lblStream control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjectsfromList._lblMsg6">
+<summary>
+lblMsg6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjectsfromList._lblAcdYear">
+<summary>
+lblAcdYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjectsfromList._lblMsg10">
+<summary>
+lblMsg10 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjectsfromList._lblSemester">
+<summary>
+lblSemester control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjectsfromList._pRelevantSubjects">
+<summary>
+pRelevantSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjectsfromList._gvSubjects">
+<summary>
+gvSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjectsfromList._SDSSubject">
+<summary>
+SDSSubject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjectsfromList._cbDeclaration">
+<summary>
+cbDeclaration control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjectsfromList._cbDeadline">
+<summary>
+cbDeadline control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjectsfromList._lblDeadlineDisplay">
+<summary>
+lblDeadlineDisplay control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjectsfromList._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjectsfromList._btSave">
+<summary>
+btSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveSubjectsfromList._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveUser._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveUser._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveUser._lblMsg05">
+<summary>
+lblMsg05 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveUser._ddAccountType">
+<summary>
+ddAccountType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveUser._pLevel">
+<summary>
+pLevel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveUser._cblUsers">
+<summary>
+cblUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveUser._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveUser._btRemoveUser">
+<summary>
+btRemoveUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.RemoveUser._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SaveDocuments._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SaveDocuments._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SaveDocuments._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SaveDocuments._txtUserName">
+<summary>
+txtUserName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SaveDocuments._lblMsg02">
+<summary>
+lblMsg02 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SaveDocuments._txtPassword">
+<summary>
+txtPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SaveDocuments._btBrowse">
+<summary>
+btBrowse control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SaveDocuments._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SaveDocuments._btOK">
+<summary>
+btOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SaveDocuments._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SelectSubjectsSemester._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SelectSubjectsSemester._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SelectSubjectsSemester._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SelectSubjectsSemester._lblRegNo">
+<summary>
+lblRegNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SelectSubjectsSemester._lblMsg02">
+<summary>
+lblMsg02 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SelectSubjectsSemester._lblStream">
+<summary>
+lblStream control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SelectSubjectsSemester._lblMsg6">
+<summary>
+lblMsg6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SelectSubjectsSemester._lblAcdYear">
+<summary>
+lblAcdYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SelectSubjectsSemester._lblMsg10">
+<summary>
+lblMsg10 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SelectSubjectsSemester._lblSemester">
+<summary>
+lblSemester control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SelectSubjectsSemester._lblMsg09">
+<summary>
+lblMsg09 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SelectSubjectsSemester._ddlSubjects">
+<summary>
+ddlSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SelectSubjectsSemester._pDetails">
+<summary>
+pDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SelectSubjectsSemester._btAdd">
+<summary>
+btAdd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SelectSubjectsSemester._pRelevantSubjects">
+<summary>
+pRelevantSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SelectSubjectsSemester._gvSubjects">
+<summary>
+gvSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SelectSubjectsSemester._SDSSubject">
+<summary>
+SDSSubject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SelectSubjectsSemester._cbDeclaration">
+<summary>
+cbDeclaration control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SelectSubjectsSemester._cb14">
+<summary>
+cb14 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SelectSubjectsSemester._cbDeadline">
+<summary>
+cbDeadline control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SelectSubjectsSemester._lblDeadlineDisplay">
+<summary>
+lblDeadlineDisplay control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SelectSubjectsSemester._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SelectSubjectsSemester._btOK">
+<summary>
+btOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SelectSubjectsSemester._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SiteMaster._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._Image1">
+<summary>
+Image1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._lblMsg8">
+<summary>
+lblMsg8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._txtFName">
+<summary>
+txtFName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._lblMsg02">
+<summary>
+lblMsg02 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._txtSName">
+<summary>
+txtSName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._lblMsg6">
+<summary>
+lblMsg6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._txtAcdYear">
+<summary>
+txtAcdYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._lblMsg03">
+<summary>
+lblMsg03 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._txtRegNo">
+<summary>
+txtRegNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._lblMsg04">
+<summary>
+lblMsg04 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._txtSubCombination">
+<summary>
+txtSubCombination control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._lblMsg09">
+<summary>
+lblMsg09 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._txtYear">
+<summary>
+txtYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._lblMsg10">
+<summary>
+lblMsg10 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._txtSemester">
+<summary>
+txtSemester control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._lblMsg11">
+<summary>
+lblMsg11 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._lblMsg12">
+<summary>
+lblMsg12 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._txtPhone">
+<summary>
+txtPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._btOther">
+<summary>
+btOther control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._btOK">
+<summary>
+btOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.StudentProfile._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._ddAcademicYear">
+<summary>
+ddAcademicYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._btAddSubjecttoMatrix">
+<summary>
+btAddSubjecttoMatrix control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._cbAB1">
+<summary>
+cbAB1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._cbAC1">
+<summary>
+cbAC1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._cbAO11">
+<summary>
+cbAO11 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._cbAO21">
+<summary>
+cbAO21 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._cbAO31">
+<summary>
+cbAO31 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._cbAB2">
+<summary>
+cbAB2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._cbAC2">
+<summary>
+cbAC2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._cbAO12">
+<summary>
+cbAO12 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._cbAO22">
+<summary>
+cbAO22 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._cbAO32">
+<summary>
+cbAO32 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._cbAB3">
+<summary>
+cbAB3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._cbAC3">
+<summary>
+cbAC3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._cbAO13">
+<summary>
+cbAO13 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._cbAO23">
+<summary>
+cbAO23 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._cbAO33">
+<summary>
+cbAO33 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._cbAB4">
+<summary>
+cbAB4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._cbAC4">
+<summary>
+cbAC4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._cbAO14">
+<summary>
+cbAO14 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._cbAO24">
+<summary>
+cbAO24 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._cbAO34">
+<summary>
+cbAO34 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._rbNotifyChangestoUsers">
+<summary>
+rbNotifyChangestoUsers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._btOK">
+<summary>
+btOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SubjectCombinationTool._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SuperuserLogin._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SuperuserLogin._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SuperuserLogin._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SuperuserLogin._txtUserName">
+<summary>
+txtUserName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SuperuserLogin._lblMsg02">
+<summary>
+lblMsg02 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SuperuserLogin._txtPassword">
+<summary>
+txtPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SuperuserLogin._cbForgot">
+<summary>
+cbForgot control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SuperuserLogin._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SuperuserLogin._btOK">
+<summary>
+btOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SuperuserLogin._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SuperuserLoginConfirmation._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SuperuserLoginConfirmation._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SuperuserLoginConfirmation._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SuperuserLoginConfirmation._txtUserName">
+<summary>
+txtUserName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SuperuserLoginConfirmation._btResendCode">
+<summary>
+btResendCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SuperuserLoginConfirmation._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SuperuserLoginConfirmation._btOK">
+<summary>
+btOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.SuperuserLoginConfirmation._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.Tips._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.Tips._lblConnectionError">
+<summary>
+lblConnectionError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.Tips._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.Tips._lblMsg02">
+<summary>
+lblMsg02 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.Tips._rbDNshow">
+<summary>
+rbDNshow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.Tips._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.Tips._btOK">
+<summary>
+btOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.Tips._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewNotices._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewNotices._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewNotices._Image1">
+<summary>
+Image1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewNotices._lblMsg08">
+<summary>
+lblMsg08 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewNotices._lblStatus">
+<summary>
+lblStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewNotices._pRelevantSubjects">
+<summary>
+pRelevantSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewNotices._btClose">
+<summary>
+btClose control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewNotices._btViewAll">
+<summary>
+btViewAll control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewNotices._btDelete">
+<summary>
+btDelete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewNotices._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewPreviousSemesters._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewPreviousSemesters._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewPreviousSemesters._lblMsg08">
+<summary>
+lblMsg08 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewPreviousSemesters._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewPreviousSemesters._lblRegNo">
+<summary>
+lblRegNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewPreviousSemesters._lblMsg02">
+<summary>
+lblMsg02 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewPreviousSemesters._lblStream">
+<summary>
+lblStream control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewPreviousSemesters._lblMsg6">
+<summary>
+lblMsg6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewPreviousSemesters._lblAcdYear">
+<summary>
+lblAcdYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewPreviousSemesters._lblMsg10">
+<summary>
+lblMsg10 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewPreviousSemesters._lblSemester">
+<summary>
+lblSemester control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewPreviousSemesters._lblMsg11">
+<summary>
+lblMsg11 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewPreviousSemesters._lblGPADisplay">
+<summary>
+lblGPADisplay control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewPreviousSemesters._lblMsg12">
+<summary>
+lblMsg12 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewPreviousSemesters._ddlYear">
+<summary>
+ddlYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewPreviousSemesters._ddlSemester">
+<summary>
+ddlSemester control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewPreviousSemesters._pRelevantSubjects">
+<summary>
+pRelevantSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewPreviousSemesters._gvSubjects">
+<summary>
+gvSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewPreviousSemesters._SDSSubject">
+<summary>
+SDSSubject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewPreviousSemesters._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewPreviousSemesters._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewPreviousSemesters._btSave">
+<summary>
+btSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewPreviousSemesters._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewStudentChoicesV._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewStudentChoicesV._lblHeader">
+<summary>
+lblHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewStudentChoicesV._pViewSubjects">
+<summary>
+pViewSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewStudentChoicesV._gvSubjects">
+<summary>
+gvSubjects control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewStudentChoicesV._SDSSubject">
+<summary>
+SDSSubject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewStudentChoicesV._rblOptions">
+<summary>
+rblOptions control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewStudentChoicesV._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewStudentChoicesV._btOK">
+<summary>
+btOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.ViewStudentChoicesV._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.Site_Mobile._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.Site_Mobile._HeadContent">
+<summary>
+HeadContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.Site_Mobile._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.Site_Mobile._FeaturedContent">
+<summary>
+FeaturedContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.Site_Mobile._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.Site_Mobile._ViewSwitcher1">
+<summary>
+ViewSwitcher1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.Warnings._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.Warnings._lblConnectionError">
+<summary>
+lblConnectionError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.Warnings._lblMsg01">
+<summary>
+lblMsg01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.Warnings._lblMsg02">
+<summary>
+lblMsg02 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.Warnings._btCancel">
+<summary>
+btCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.Warnings._btOK">
+<summary>
+btOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MCSAA.Warnings._lblcopyright">
+<summary>
+lblcopyright control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
